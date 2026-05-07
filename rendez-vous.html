@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendez-vous</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Nos services</h2>
+    <form action="confirmation.html" method="get">
+        <label for="service">Choisissez un service:</label>
+        <select name="service" id="service" required>
+            <option value="Consultation">Consultation</option>
+            <option value="Thérapie">Thérapie</option>
+            <option value="Accompagnement">Accompagnement</option>
+            <option value="Orientation">Orientation</option>
+            <option value="Atelier">Atelier</option>
+            <option value="Groupes de discussion">Groupes de discussion</option>
+            <option value="Support en ligne">Support en ligne</option>
+            <option value="Ressources">Ressources</option>
+        </select><br><br>
+        
+        <label for="date">Choisissez une date:</label>
+        <input type="date" name="date" id="date" required><br><br>
+        
+        <label for="time">Choisissez une heure:</label>
+        <input type="time" name="time" id="time" required><br><br>
+        
+        <input type="submit" value="Confirmer le rendez-vous">
+    </form>
+</body>
+</html>
