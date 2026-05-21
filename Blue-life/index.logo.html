@@ -1,79 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>BlueLife Logo</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueLife Logo</title>
+</head>
 <style>
 
-body{
-    margin:0;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:#f6f9fc;
-    font-family: "Segoe UI", Arial, sans-serif;
-}
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#f6f9fc;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
 
-.logo{
-    display:flex;
-    align-items:center;
-    gap:28px;
-}
+    .logo{
+        display:flex;
+        align-items:center;
+        gap:28px;
+    }
 
-.text{
-    font-size:64px;
-    font-weight:700;
-    letter-spacing:-1px;
-}
+    .text{
+        font-size:64px;
+        font-weight:700;
+        letter-spacing:-1px;
+    }
 
-.blue{
-    color:#0F4C81;
-}
+    .blue{
+        color:#0F4C81;
+    }
 
-.life{
-    color:#3BA6FF;
-}
+    .life{
+        color:#3BA6FF;
+    }
 
-svg{
-    filter: drop-shadow(0 6px 10px rgba(0,0,0,0.15));
-}
+    svg{
+        filter: drop-shadow(0 6px 10px rgba(0,0,0,0.15));
+    }
 
 </style>
 
-</head>
 <body>
 
-<div class="logo">
+    <div class="logo">
+        <svg width="120" height="120" viewBox="0 0 120 120">
 
-<svg width="120" height="120" viewBox="0 0 120 120">
+            <defs>
+                <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4FC3FF"/>
+                <stop offset="100%" stop-color="#0F4C81"/>
+                </linearGradient>
+            </defs>
 
-<defs>
-<linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#4FC3FF"/>
-<stop offset="100%" stop-color="#0F4C81"/>
-</linearGradient>
-</defs>
+            <!-- forme principale -->
+            <circle cx="60" cy="60" r="50" fill="url(#grad)"/>
 
-<!-- forme principale -->
-<circle cx="60" cy="60" r="50" fill="url(#grad)"/>
+            <!-- symbole intérieur -->
+            <path d="M60 30 
+                    C50 45 45 55 45 65
+                    C45 80 55 90 60 90
+                    C65 90 75 80 75 65
+                    C75 55 70 45 60 30Z"
+            fill="white" opacity="0.9"/>
 
-<!-- symbole intérieur -->
-<path d="M60 30 
-         C50 45 45 55 45 65
-         C45 80 55 90 60 90
-         C65 90 75 80 75 65
-         C75 55 70 45 60 30Z"
-fill="white" opacity="0.9"/>
+        </svg>
 
-</svg>
+        <div class="text">
+            <span class="blue">Blue</span><span class="life">Life</span>
+        </div>
 
-<div class="text">
-<span class="blue">Blue</span><span class="life">Life</span>
-</div>
-
-</div>
+    </div>
 
 </body>
 </html>
