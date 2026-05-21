@@ -24,7 +24,7 @@ $sql = "SELECT * FROM inscription WHERE mail='$mail' AND motdepasse='$motdepasse
 $result = mysqli_query($link, $sql);
 
 if (mysqli_num_rows($result) > 0) {
-    header("Location: connexionreussi.php");
+    header("Location: /dossiers php/connexionreussi.php");
     
 } else {
     header("location: monespace.html");
