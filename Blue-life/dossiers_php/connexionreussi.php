@@ -16,7 +16,7 @@
 <body>
     <div>
         <h1>Connexion réussi .</h1>
-        <a href="accueil.html">Redirection vers votre compte</a>
+        <a href="../accueil.html">Redirection vers votre compte</a>
     </div>
 </body>
 </html>
