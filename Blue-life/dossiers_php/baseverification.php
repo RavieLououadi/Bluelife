@@ -27,7 +27,7 @@ if (mysqli_num_rows($result) > 0) {
     header("Location: dossiers php/connexionreussi.php");
     
 } else {
-    header("location: monespace.html");
+    header("location: ../monespace.html");
 }
 
 
