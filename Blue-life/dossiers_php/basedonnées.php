@@ -24,7 +24,7 @@ $check = "SELECT * FROM inscription WHERE mail = '$mail'";
 $result = mysqli_query($link, $check);
 
 if (mysqli_num_rows($result) > 0) {
-    echo "Compte déjà existant, <a href='seconnecter.html'>connectez-vous</a>.";
+    echo "Compte déjà existant, <a href='../seconnecter.html'>connectez-vous</a>.";
     exit;
 }
 
