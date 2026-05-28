@@ -25,9 +25,11 @@ $result = mysqli_query($link, $sql);
 
 if (mysqli_num_rows($result) > 0) {
     header("Location: ../monespace.html");
+    exit;
     
 } else {
     header("location: ../seconnecter.html");
+    exit;
 }
 
 
