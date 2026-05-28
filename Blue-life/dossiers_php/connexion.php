@@ -23,7 +23,7 @@ if (mysqli_num_rows($result) == 1) {
     exit;
 } else {
     // Connexion échouée
-    echo "Identifiants incorrecte ou innexistant. <a href='Blue-life/seconnecter.html'>Réessayer</a> et cliquer sur <a href='Bue-life/inscription.html'>s'inscrire</a>";
+    echo "Identifiants incorrecte ou innexistant. <a href='../seconnecter.html'>Réessayer</a> et cliquer sur <a href='../inscription.html'>s'inscrire</a>";
     exit;
 }
 

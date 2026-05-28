@@ -49,7 +49,7 @@ $sql = "INSERT INTO inscription(name, mail, motdepasse, confirmer)
 VALUES ('$name', '$mail', '$motdepasse', '$confirmer')";
 
 if (mysqli_query($link, $sql)) {
-    header("Location: dossiers php/succes.php");
+    header("Location: dossiers_php/succes.php");
 } else {
     echo "Error: could not be to execute. $sql" .
         $mysqli->connect_error();
