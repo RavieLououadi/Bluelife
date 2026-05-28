@@ -24,10 +24,10 @@ $sql = "SELECT * FROM inscription WHERE mail='$mail' AND motdepasse='$motdepasse
 $result = mysqli_query($link, $sql);
 
 if (mysqli_num_rows($result) > 0) {
-    header("Location: connexionreussi.php");
+    header("Location: Blue-life-finale/Blue-life/monespace.html");
     
 } else {
-    header("location: Blue-life-finale/Blue-life/dossiers_php/monespace.html");
+    header("location: ../seconnecter.html");
 }
 
 
