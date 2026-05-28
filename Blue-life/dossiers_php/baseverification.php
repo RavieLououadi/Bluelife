@@ -27,7 +27,7 @@ if (mysqli_num_rows($result) > 0) {
     header("Location: connexionreussi.php");
     
 } else {
-    header("location: ../monespace.html");
+    header("location: Blue-life-finale/Blue-life/monespace.html");
 }
 
 
